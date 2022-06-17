@@ -14,10 +14,6 @@ app.get("/todo-list", (req, res) => {
   res.send(todos);
 });
 
-app.get("/", (req, res) => {
-  res.send("Server is on");
-});
-
 // app.post("/add-item", (req, res) => {
 //   console.log(req.body.item);
 //   todos.push(req.body.item);
